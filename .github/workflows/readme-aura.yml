@@ -17,6 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Inject contribution count
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/inject-contributions.sh
+
       - name: Generate README
         uses: collectioneur/readme-aura@v1.0.20
         with:
