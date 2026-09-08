@@ -106,7 +106,7 @@
 
  <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:10, zIndex: 10, maxWidth: 620 }}>
    <div style={{ display:'flex', fontSize:28, fontWeight:800, color:'#ffffff', letterSpacing:'-0.5px', lineHeight:1.2 }}>
-     I'm a React Native Developer
+     React Native Developer
    </div>
    <div style={{ display:'flex', fontSize:20, color:'rgba(167,243,208,0.88)', fontWeight:500, letterSpacing:'0.2px' }}>
      with 5 years of experience
