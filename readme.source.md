@@ -1,9 +1,9 @@
 ```aura width=860 height=200
  <div style={{
- width: '100%', height: '100%', background: '#070b08',
+ width: '100%', height: '100%', background: '#080910',
  display: 'flex', alignItems: 'center', fontFamily: 'Inter',
  position: 'relative', overflow: 'hidden', borderRadius: 16,
- border: '1px solid rgba(52,211,153,0.22)'
+ border: '1px solid rgba(96,165,250,0.22)'
 }}>
 
  <style>
@@ -47,42 +47,42 @@
  <svg width="860" height="200" style={{ position: 'absolute', top: 0, left: 0 }}>
    <defs>
      <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(16,185,129,0.72)" />
-       <stop offset="40%" stopColor="rgba(5,150,105,0.32)" />
-       <stop offset="70%" stopColor="rgba(5,150,105,0)" />
+       <stop offset="0%" stopColor="rgba(196,72,28,0.72)" />
+       <stop offset="40%" stopColor="rgba(180,50,30,0.32)" />
+       <stop offset="70%" stopColor="rgba(180,50,30,0)" />
      </radialGradient>
      <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(52,211,153,0.55)" />
-       <stop offset="45%" stopColor="rgba(16,185,129,0.22)" />
-       <stop offset="70%" stopColor="rgba(16,185,129,0)" />
+       <stop offset="0%" stopColor="rgba(59,130,246,0.55)" />
+       <stop offset="45%" stopColor="rgba(37,99,235,0.22)" />
+       <stop offset="70%" stopColor="rgba(37,99,235,0)" />
      </radialGradient>
      <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(110,231,183,0.40)" />
-       <stop offset="50%" stopColor="rgba(45,180,120,0.16)" />
-       <stop offset="70%" stopColor="rgba(45,180,120,0)" />
+       <stop offset="0%" stopColor="rgba(125,211,252,0.40)" />
+       <stop offset="50%" stopColor="rgba(56,189,248,0.16)" />
+       <stop offset="70%" stopColor="rgba(56,189,248,0)" />
      </radialGradient>
      <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(163,230,53,0.28)" />
-       <stop offset="70%" stopColor="rgba(163,230,53,0)" />
+       <stop offset="0%" stopColor="rgba(239,68,68,0.38)" />
+       <stop offset="70%" stopColor="rgba(239,68,68,0)" />
      </radialGradient>
      <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(6,95,70,0.50)" />
-       <stop offset="70%" stopColor="rgba(6,95,70,0)" />
+       <stop offset="0%" stopColor="rgba(30,58,95,0.55)" />
+       <stop offset="70%" stopColor="rgba(30,58,95,0)" />
      </radialGradient>
      <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(20,184,166,0.42)" />
-       <stop offset="45%" stopColor="rgba(13,148,136,0.18)" />
-       <stop offset="70%" stopColor="rgba(13,148,136,0)" />
+       <stop offset="0%" stopColor="rgba(249,115,22,0.42)" />
+       <stop offset="45%" stopColor="rgba(234,88,12,0.18)" />
+       <stop offset="70%" stopColor="rgba(234,88,12,0)" />
      </radialGradient>
      <radialGradient id="g7" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(74,222,128,0.45)" />
-       <stop offset="50%" stopColor="rgba(34,197,94,0.16)" />
-       <stop offset="70%" stopColor="rgba(34,197,94,0)" />
+       <stop offset="0%" stopColor="rgba(96,165,250,0.45)" />
+       <stop offset="50%" stopColor="rgba(59,130,246,0.16)" />
+       <stop offset="70%" stopColor="rgba(59,130,246,0)" />
      </radialGradient>
      <radialGradient id="g8" cx="50%" cy="50%" r="50%">
-       <stop offset="0%" stopColor="rgba(167,243,208,0.28)" />
-       <stop offset="50%" stopColor="rgba(16,185,129,0.12)" />
-       <stop offset="70%" stopColor="rgba(16,185,129,0)" />
+       <stop offset="0%" stopColor="rgba(254,202,202,0.22)" />
+       <stop offset="50%" stopColor="rgba(248,113,113,0.12)" />
+       <stop offset="70%" stopColor="rgba(248,113,113,0)" />
      </radialGradient>
    </defs>
 
@@ -98,7 +98,7 @@
 
  <div style={{
    position: 'absolute', left: 48, top: 52, width: 96, height: 96,
-   borderRadius: 48, background: 'linear-gradient(135deg, #059669, #6ee7b7)',
+   borderRadius: 48, background: 'linear-gradient(135deg, #c4481c, #60a5fa)',
    display: 'flex', alignItems: 'center', justifyContent: 'center',
  }}>
    <img src={(github && github.user && github.user.avatarUrl) || 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'} width={88} height={88} style={{ borderRadius: 44 }} />
@@ -108,7 +108,7 @@
    <div style={{ display:'flex', fontSize:28, fontWeight:800, color:'#ffffff', letterSpacing:'-0.5px', lineHeight:1.2 }}>
      React Native Developer
    </div>
-   <div style={{ display:'flex', fontSize:20, color:'rgba(167,243,208,0.88)', fontWeight:500, letterSpacing:'0.2px' }}>
+   <div style={{ display:'flex', fontSize:20, color:'rgba(186,214,240,0.88)', fontWeight:500, letterSpacing:'0.2px' }}>
      with 5 years of experience
    </div>
  </div>
@@ -118,16 +118,16 @@
 ```aura width=860 height=140
 (function() {
  var stats = [
-   { label: 'Contributions', value: '__CONTRIBUTIONS__', color: '#4ade80' },
+   { label: 'Contributions', value: '__CONTRIBUTIONS__', color: '#fb7185' },
  ];
 
  return (
    <div style={{
      width: '100%', height: '100%',
-     background: '#070b08',
+     background: '#080910',
      display: 'flex', alignItems: 'center', justifyContent: 'center',
      fontFamily: 'Inter', borderRadius: 16,
-     border: '1px solid rgba(52,211,153,0.22)',
+     border: '1px solid rgba(96,165,250,0.22)',
      position: 'relative', overflow: 'hidden',
    }}>
 
@@ -169,26 +169,26 @@
      <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(16,185,129,0.65)" />
-           <stop offset="45%" stopColor="rgba(5,150,105,0.26)" />
-           <stop offset="70%" stopColor="rgba(5,150,105,0)" />
+           <stop offset="0%" stopColor="rgba(196,72,28,0.65)" />
+           <stop offset="45%" stopColor="rgba(180,50,30,0.26)" />
+           <stop offset="70%" stopColor="rgba(180,50,30,0)" />
          </radialGradient>
          <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(52,211,153,0.50)" />
-           <stop offset="45%" stopColor="rgba(16,185,129,0.20)" />
-           <stop offset="70%" stopColor="rgba(16,185,129,0)" />
+           <stop offset="0%" stopColor="rgba(59,130,246,0.50)" />
+           <stop offset="45%" stopColor="rgba(37,99,235,0.20)" />
+           <stop offset="70%" stopColor="rgba(37,99,235,0)" />
          </radialGradient>
          <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(20,184,166,0.38)" />
-           <stop offset="70%" stopColor="rgba(20,184,166,0)" />
+           <stop offset="0%" stopColor="rgba(125,211,252,0.38)" />
+           <stop offset="70%" stopColor="rgba(125,211,252,0)" />
          </radialGradient>
          <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(163,230,53,0.26)" />
-           <stop offset="70%" stopColor="rgba(163,230,53,0)" />
+           <stop offset="0%" stopColor="rgba(249,115,22,0.30)" />
+           <stop offset="70%" stopColor="rgba(249,115,22,0)" />
          </radialGradient>
          <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(6,95,70,0.42)" />
-           <stop offset="70%" stopColor="rgba(6,95,70,0)" />
+           <stop offset="0%" stopColor="rgba(30,58,95,0.45)" />
+           <stop offset="70%" stopColor="rgba(30,58,95,0)" />
          </radialGradient>
        </defs>
        <ellipse id="glow-1" cx="710" cy="150" rx="210" ry="150" fill="url(#g1)" />
@@ -209,10 +209,10 @@
            <div style={{ display:'flex', fontSize:30, fontWeight:800, color:s.color, lineHeight:1 }}>
              {s.value}
            </div>
-           <div style={{ display:'flex', fontSize:11, color:'rgba(190,220,200,0.5)', fontWeight:600, letterSpacing:'1.5px' }}>
+           <div style={{ display:'flex', fontSize:11, color:'rgba(186,214,240,0.5)', fontWeight:600, letterSpacing:'1.5px' }}>
              {s.label.toUpperCase()}
            </div>
-           <div style={{ display:'flex', fontSize:10, color:'rgba(190,220,200,0.35)', fontWeight:600, letterSpacing:'1.2px' }}>
+           <div style={{ display:'flex', fontSize:10, color:'rgba(186,214,240,0.35)', fontWeight:600, letterSpacing:'1.2px' }}>
              LAST 12 MONTHS
            </div>
          </div>
@@ -226,17 +226,17 @@
 ```aura width=860 height=168
 (function() {
  var categories = [
-   { title: 'Languages', color: '#4ade80', items: ['TypeScript', 'JavaScript'] },
-   { title: 'Frameworks', color: '#2dd4bf', items: ['React Native', 'React', 'Redux', 'Node.js'] },
+   { title: 'Languages', color: '#fb7185', items: ['TypeScript', 'JavaScript'] },
+   { title: 'Frameworks', color: '#60a5fa', items: ['React Native', 'React', 'Redux', 'Node.js'] },
  ];
 
  return (
    <div style={{
      width: '100%', height: '100%',
-     background: '#070b08',
+     background: '#080910',
      display: 'flex', flexDirection: 'column',
      fontFamily: 'Inter', padding: '18px 32px', gap: 14,
-     borderRadius: 16, border: '1px solid rgba(52,211,153,0.22)',
+     borderRadius: 16, border: '1px solid rgba(96,165,250,0.22)',
      position: 'relative', overflow: 'hidden',
    }}>
 
@@ -279,31 +279,31 @@
      <svg width="860" height="168" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(16,185,129,0.68)" />
-           <stop offset="42%" stopColor="rgba(5,150,105,0.28)" />
-           <stop offset="70%" stopColor="rgba(5,150,105,0)" />
+           <stop offset="0%" stopColor="rgba(196,72,28,0.68)" />
+           <stop offset="42%" stopColor="rgba(180,50,30,0.28)" />
+           <stop offset="70%" stopColor="rgba(180,50,30,0)" />
          </radialGradient>
          <radialGradient id="g2" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(52,211,153,0.50)" />
-           <stop offset="45%" stopColor="rgba(16,185,129,0.20)" />
-           <stop offset="70%" stopColor="rgba(16,185,129,0)" />
+           <stop offset="0%" stopColor="rgba(59,130,246,0.50)" />
+           <stop offset="45%" stopColor="rgba(37,99,235,0.20)" />
+           <stop offset="70%" stopColor="rgba(37,99,235,0)" />
          </radialGradient>
          <radialGradient id="g3" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(20,184,166,0.40)" />
-           <stop offset="50%" stopColor="rgba(13,148,136,0.14)" />
-           <stop offset="70%" stopColor="rgba(13,148,136,0)" />
+           <stop offset="0%" stopColor="rgba(125,211,252,0.40)" />
+           <stop offset="50%" stopColor="rgba(56,189,248,0.14)" />
+           <stop offset="70%" stopColor="rgba(56,189,248,0)" />
          </radialGradient>
          <radialGradient id="g4" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(163,230,53,0.28)" />
-           <stop offset="70%" stopColor="rgba(163,230,53,0)" />
+           <stop offset="0%" stopColor="rgba(249,115,22,0.32)" />
+           <stop offset="70%" stopColor="rgba(249,115,22,0)" />
          </radialGradient>
          <radialGradient id="g5" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(6,95,70,0.42)" />
-           <stop offset="70%" stopColor="rgba(6,95,70,0)" />
+           <stop offset="0%" stopColor="rgba(30,58,95,0.42)" />
+           <stop offset="70%" stopColor="rgba(30,58,95,0)" />
          </radialGradient>
          <radialGradient id="g6" cx="50%" cy="50%" r="50%">
-           <stop offset="0%" stopColor="rgba(74,222,128,0.32)" />
-           <stop offset="70%" stopColor="rgba(74,222,128,0)" />
+           <stop offset="0%" stopColor="rgba(248,113,113,0.32)" />
+           <stop offset="70%" stopColor="rgba(248,113,113,0)" />
          </radialGradient>
        </defs>
        <ellipse id="glow-1" cx="170" cy="168" rx="260" ry="170" fill="url(#g1)" />
@@ -314,7 +314,7 @@
        <ellipse id="glow-6" cx="420" cy="138" rx="100" ry="80" fill="url(#g6)" />
      </svg>
 
-     <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(140,200,160,0.5)', letterSpacing:'3px' }}>
+     <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(186,214,240,0.5)', letterSpacing:'3px' }}>
        TECH STACK
      </div>
      <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
@@ -330,7 +330,7 @@
                    <div key={item} style={{
                      display:'flex', padding:'4px 13px', borderRadius:6,
                      background:cat.color + '18', border:'1px solid ' + cat.color + '40',
-                     color:'rgba(220,245,230,0.9)', fontSize:12, fontWeight:600,
+                     color:'rgba(230,236,245,0.9)', fontSize:12, fontWeight:600,
                    }}>{item}</div>
                  );
                })}
@@ -348,16 +348,16 @@
 <SocialMediaButton
   icon="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI2ZmZmZmZiIgcm9sZT0iaW1nIj48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4="
   text="LinkedIn"
-  backgroundColor="#07140e"
+  backgroundColor="#0a1018"
   width={138}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
     { offset: '10%', color: '#111111' },
     { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#34d399' },
+    { offset: '60%', color: '#c4481c' },
     { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
+    { offset: '100%', color: '#3b82f6' },
   ]}
 />
 ```
