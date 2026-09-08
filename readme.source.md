@@ -109,7 +109,7 @@
      Wojciech Boman
    </div>
    <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-     {(github && github.user && github.user.bio) || 'Full-Stack Engineer · Competitive Programmer · Open Source'}
+     I'm a React Native Developer with 5 years of experience
    </div>
    <div style={{ display:'flex', gap:8, marginTop:6 }}>
      {['React Native', 'React', 'TypeScript', 'Node.js'].map(function(tag) {
